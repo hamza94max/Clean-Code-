@@ -75,8 +75,12 @@ set, and is
 
   <details close>
 <summary> Funcations </summary>
-  <br>
-### The first rule of functions is that they should be small. The second rule of functions is that they should be smaller than that. a function should be no bigger than a screen-full<br>
+  <br><br>
+  
+  
+  
+### The first rule of functions is that they should be small. The second rule of functions is that they should be smaller than that. a function should be no bigger than a screen-full.
+ <br>
   
 • This implies that the blocks within **if** statements, **else** statements, **while** statements, and
 so on should be one line long. Probably that line should be a **function call** . <br>
@@ -91,8 +95,10 @@ it does <br>
   
   <details close>
 <summary> Funcations Arguments </summary>
-    <br><br>
+    
+    
 ### The ideal number of arguments for a function is zero (niladic). Next comes one (monadic), followed closely by two (dyadic). Three arguments (triadic) should be avoided where possible. More than three (polyadic) requires very special justification—and then shouldn’t be used anyway.<br><br>
+    
   
 • **Flag arguments** are ugly. Passing a boolean into a function is a truly terrible practice. It
 immediately complicates the signature of the method, loudly proclaiming that this function
