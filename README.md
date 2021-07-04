@@ -29,26 +29,6 @@ Clean code Book by RobertC.Martin <br><br>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   <details close>
 <summary> MeaningFul Names </summary>
   <br>
@@ -86,11 +66,61 @@ of a class. A class name should not be a verb.
 Accessors, mutators, and predicates should be named for their value and prefixed with get,
 set, and is
   
+</details>
 
 
 
+
+
+
+  <details close>
+<summary> Funcations </summary>
+  <br>
+### The first rule of functions is that they should be small. The second rule of functions is that they should be smaller than that. a function should be no bigger than a screen-full<br>
+  
+• This implies that the blocks within **if** statements, **else** statements, **while** statements, and
+so on should be one line long. Probably that line should be a **function call** . <br>
+  
+• **FUNCTIONS SHOULD DO ONE THING. THEY SHOULD DO IT WELL. THEY SHOULD DO IT ONLY.**
+  
+• **Use Descriptive Names** : Don’t be afraid to make a name long. A long descriptive name is better than a short
+enigmatic name. A long descriptive name is better than a long descriptive comment. Use
+a naming convention that allows multiple words to be easily read in the function names,
+and then make use of those multiple words to give the function a name that says what
+it does <br>
+  
+  <details close>
+<summary> Funcations Arguments </summary>
+    <br><br>
+### The ideal number of arguments for a function is zero (niladic). Next comes one (monadic), followed closely by two (dyadic). Three arguments (triadic) should be avoided where possible. More than three (polyadic) requires very special justification—and then shouldn’t be used anyway.<br><br>
+  
+• **Flag arguments** are ugly. Passing a boolean into a function is a truly terrible practice. It
+immediately complicates the signature of the method, loudly proclaiming that this function
+does more than one thing. It does one thing if the flag is true and another if the flag is false!<br>
+    
+    
+• When a function seems to need more than two or three arguments, it is likely that some of
+those arguments ought to be wrapped into a class of their own. Consider, for example, the
+difference between the two following declarations:<br><br>
+Circle makeCircle(double x, double y, double radius);<br>
+Circle makeCircle(Point center, double radius);<br>
+  
+  </details>
+  </details>
+  
+  
   
 
-
-
 </details>
+
+
+
+
+
+
+
+
+
+
+
+
