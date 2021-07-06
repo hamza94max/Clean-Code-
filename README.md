@@ -1,5 +1,13 @@
 # Clean-Code-
 Clean code Book by RobertC.Martin <br><br>
+
+
+[ Quick Review ](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29)<br><br>
+
+
+
+
+
 <img src = "https://user-images.githubusercontent.com/54688005/124272711-680c6f00-db3f-11eb-82b6-47d36cd49ee4.jpg" width =100%>
   <img width ="10%"/> 
   <br> <br>
